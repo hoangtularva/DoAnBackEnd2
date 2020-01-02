@@ -66,7 +66,7 @@
                         </tbody>
                     </table>
                 </div>
-                <!-- /.row -->
+                <!-- /.row --> 
             </div>
             <!-- /.container-fluid -->
         </div>
