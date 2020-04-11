@@ -138,7 +138,7 @@ Route::group(['prefix' => 'admin','middleware' => 'adminAuth'],function(){
 	});
 
 	// Route group Ajax
-	Route::group(['prefix'=>'ajax'],function(){
+	Route::group(['prefix'=>'ajax'], function(){
 		Route::get('layloaitin/{idTheLoai}','AjaxController@getLoaiTin');
 
 		Route::get('timestamp','AjaxController@timestamp');
